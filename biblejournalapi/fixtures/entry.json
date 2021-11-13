@@ -1,0 +1,15 @@
+[
+    {
+        "model": "biblejournalapi.entry",
+        "pk": 1,
+        "fields": {
+            "reader" : 1,
+            "hear": "John 3:16, For God so loved the world that He gave His one and only Son that who ever beleives in him shall not perish and have everlasting life",
+            "engage": "This means alot to me",
+            "apply": "I need to be better",
+            "respond": "Lord help me to be better",
+            "date":"2021-11-12",
+            "refrence": "JON.3.16" 
+        }
+    }
+]
