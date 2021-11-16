@@ -13,7 +13,7 @@ class EntryView(ViewSet):
         return Response(seriailizer.data)
     def list(self, request):
         reader = Reader.objects.get(user = request.auth.user)
-        entries = Entry.objects.filter(reader = reader)
+        entries = Entry.objects.filter(reader = reader).order_by('-date')
         seriailizer = EntrySerializer(entries, many=True, context={'request': request})
         return Response(seriailizer.data)
     def create(self, request):

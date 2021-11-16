@@ -1,0 +1,1 @@
+DELETE FROM biblejournalapi_entry WHERE reader_id = 1;
